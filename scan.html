@@ -8,7 +8,7 @@
     function onScanSuccess(decodedText) {
       // sostituisci APP_ID con il tuo appId Glide
       const glideUrl = 
-        `https://go.glideapps.app/app/APP_ID?last_scan=${encodeURIComponent(decodedText)}`;
+        `https://go.glideapps.app/app/symbol eventi's Template?last_scan=${encodeURIComponent(decodedText)}`;
       window.location.href = glideUrl;
     }
     new Html5Qrcode("reader")
